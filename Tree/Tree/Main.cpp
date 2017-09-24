@@ -63,24 +63,6 @@ public:
 	~Node(){
 		Remove();
 	}
-
-	//void printNodeData(){
-	//	cout << data << endl;
-	//	if (parent)
-	//		cout << "parent : " << parent->data << endl;
-	//	else
-	//		cout << "parent : NULL" << endl;
-
-	//	if (leftChild)
-	//		cout << "child 0 : " << leftChild->data << endl;
-	//	else
-	//		cout << "child 0 : NULL" << endl;
-
-	//	if (rightChild)
-	//		cout << "child 1 : " << rightChild->data << endl;
-	//	else
-	//		cout << "child 1 : NULL" << endl;
-	//}
 };
 
 class BinarySearchTree{
